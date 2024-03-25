@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/dimpris-vntu/1c2s23_express#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
